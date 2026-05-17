@@ -81,22 +81,22 @@ The campus consists of the following buildings/blocks:
 
 ## 📂 Project Files
 
-Campus-Network-Project/
-├── Campus_Network.pkt
-├── README.md
-├── Configurations/
-│   ├── Routers/
-│   │   └── R1-Core.txt
-│   ├── Switches/
-│   │   ├── SW1-Configuration.txt
-│   │   ├── SW2-Configuration.txt
-│   │   └── SW3-Configuration.txt
-│   └── Servers/
-│       └── DHCP-Server.txt
-├── Screenshots/
-│   ├── topology-overview.png
-└── Documentation/
-    └── Project-Report.md
+Campus-Network-Project/  
+├── Campus_Network.pkt  
+├── README.md  
+├── Configurations/  
+│   ├── Routers/  
+│   │   └── R1-Core.txt      
+│   ├── Switches/  
+│   │   ├── SW1-Configuration.txt  
+│   │   ├── SW2-Configuration.txt  
+│   │   └── SW3-Configuration.txt  
+│   └── Servers/  
+│       └── DHCP-Server.txt  
+├── Screenshots/   
+│   ├── topology-overview.png   
+└── Documentation/   
+
 
 - `Campus_Network.pkt` → Main Packet Tracer file
 - `Screenshots/` → Topology, configurations, and test results
