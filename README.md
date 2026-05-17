@@ -81,6 +81,20 @@ The campus consists of the following buildings/blocks:
 
 ## 📂 Project Files
 
+Campus-Network-Project/
+├── Campus_Network.pkt
+├── README.md
+├── Configurations/
+│   ├── Routers/
+│   │   ├── R1-Core.txt
+│   ├── Switches/
+│   │   ├── SW1-Configuration.txt
+│   │   ├── SW2-Configurations.txt
+│   │   ├── SW3-Configurations.txt
+│   └── Servers/
+│       └── DHCP-Server.txt
+└── Screenshots/
+
 - `Campus_Network.pkt` → Main Packet Tracer file
 - `Screenshots/` → Topology, configurations, and test results
 
