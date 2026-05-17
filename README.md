@@ -86,14 +86,17 @@ Campus-Network-Project/
 ├── README.md
 ├── Configurations/
 │   ├── Routers/
-│   │   ├── R1-Core.txt
+│   │   └── R1-Core.txt
 │   ├── Switches/
 │   │   ├── SW1-Configuration.txt
-│   │   ├── SW2-Configurations.txt
-│   │   ├── SW3-Configurations.txt
+│   │   ├── SW2-Configuration.txt
+│   │   └── SW3-Configuration.txt
 │   └── Servers/
 │       └── DHCP-Server.txt
-└── Screenshots/
+├── Screenshots/
+│   ├── topology-overview.png
+└── Documentation/
+    └── Project-Report.md
 
 - `Campus_Network.pkt` → Main Packet Tracer file
 - `Screenshots/` → Topology, configurations, and test results
