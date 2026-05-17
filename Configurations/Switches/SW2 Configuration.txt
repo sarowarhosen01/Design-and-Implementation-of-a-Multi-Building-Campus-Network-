@@ -1,0 +1,76 @@
+enable
+
+configure terminal
+
+hostname SW2
+
+vlan 10
+name VLAN10
+
+vlan 20
+name VLAN20
+
+vlan 30
+name VLAN30
+
+vlan 40
+name VLAN40
+
+vlan 50
+name SERVERS
+
+
+interface range fa0/1 - 4
+switchport mode access
+switchport access vlan 10
+spanning-tree portfast
+exit
+
+
+! VLAN20 PCs
+interface range fa0/5 - 8
+switchport mode access
+switchport access vlan 20
+spanning-tree portfast
+exit
+
+! VLAN30 PCs
+interface range fa0/9 - 12
+switchport mode access
+switchport access vlan 30
+spanning-tree portfast
+exit
+
+
+! VLAN40 PCs
+interface range fa0/13 - 16
+switchport mode access
+switchport access vlan 40
+spanning-tree portfast
+exit
+
+
+! VLAN40 PCs
+interface range fa0/17 - 20
+switchport mode access
+switchport access vlan 50
+spanning-tree portfast
+exit
+
+! STP ROOT SECONDARY
+spanning-tree vlan 10,20,30,40,50 root secondary
+
+
+! TRUNK CONFIG
+interface range fa0/23 - 24
+ switchport mode trunk
+ switchport trunk native vlan 99
+ switchport trunk allowed vlan 10,20,30,40,50,99
+
+! MANAGEMENT IP
+interface vlan 99
+ ip address 192.168.99.2 255.255.255.0
+ no shutdown
+
+end
+write memory
