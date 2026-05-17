@@ -1,6 +1,4 @@
-# Design-and-Implementation-of-a-Multi-Building-Campus-Network-
-
-# Campus Network Design using Cisco Packet Tracer
+# Design and Implementation of a Multi Building Campus Network - using Cisco Packet Tracer
 
 ![Cisco Packet Tracer](https://img.shields.io/badge/Cisco%20Packet%20Tracer-7.3.1-brightgreen)
 ![CCNA Level](https://img.shields.io/badge/Skill%20Level-CCNA-blue)
