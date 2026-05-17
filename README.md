@@ -67,7 +67,6 @@ The campus consists of the following buildings/blocks:
 
 **DHCP Pool**: Configured for dynamic IP allocation to end devices.
 
-*(You can update this table according to your actual `.pkt` file)*
 
 ---
 
@@ -85,7 +84,6 @@ The campus consists of the following buildings/blocks:
 ## 📂 Project Files
 
 - `Campus_Network.pkt` → Main Packet Tracer file
-- `Documentation/` → Detailed project report (optional)
 - `Screenshots/` → Topology, configurations, and test results
 
 ---
@@ -101,7 +99,7 @@ The campus consists of the following buildings/blocks:
 
 ## 📸 Screenshots
 
-*(Add these images in a `Screenshots` folder)*
+![App Screenshot](https://raw.githubusercontent.com/sarowarhosen01/Design-and-Implementation-of-a-Multi-Building-Campus-Network-/refs/heads/main/Screenshots/Screenshot_100.jpg)
 
 - Overall Network Topology
 - VLAN Configuration
@@ -138,8 +136,8 @@ The campus consists of the following buildings/blocks:
 ## 👨‍💻 Author
 
 **SAROWAR**  
-Network Engineering Student / Enthusiast  
-Location: Comilla, Bangladesh
+Network Engineering  
+Location: Dhaka, Bangladesh
 
 ---
 
