@@ -94,7 +94,7 @@ Campus-Network-Project/
 │   └── Servers/  
 │       └── DHCP-Server.txt  
 ├── Screenshots/   
-│   ├── topology-overview.png   
+│   ├── topology-overview.jpg   
 └── Documentation/   
 
 
