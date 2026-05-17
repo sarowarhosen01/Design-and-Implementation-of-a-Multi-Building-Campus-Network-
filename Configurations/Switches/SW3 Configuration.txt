@@ -1,0 +1,84 @@
+enable
+configure terminal
+
+hostname SW3
+
+! Create VLANs
+vlan 10
+ name VLAN10
+exit
+
+vlan 20
+ name VLAN20
+exit
+
+vlan 30
+ name VLAN30
+exit
+
+vlan 40
+ name VLAN40
+exit
+
+vlan 50
+ name SERVERS
+exit
+
+! VLAN10 PCs (Ports 1-4)
+interface range fa0/1-4
+ switchport mode access
+ switchport access vlan 10
+ spanning-tree portfast
+exit
+
+! VLAN20 PCs (Ports 5-8)
+interface range fa0/5-8
+ switchport mode access
+ switchport access vlan 20
+ spanning-tree portfast
+exit
+
+! VLAN30 PCs (Ports 9-12)
+interface range fa0/9-12
+ switchport mode access
+ switchport access vlan 30
+ spanning-tree portfast
+exit
+
+! VLAN40 PCs (Ports 13-16)
+interface range fa0/13-16
+ switchport mode access
+ switchport access vlan 40
+ spanning-tree portfast
+exit
+
+! VLAN50 SERVERS (Ports 17-20)
+interface range fa0/17-20
+ switchport mode access
+ switchport access vlan 50
+ spanning-tree portfast
+exit
+
+! Spanning Tree Root Configuration
+spanning-tree vlan 10,20,30,40,50 root secondary
+
+! Trunk to SW1
+interface fa0/24
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40,50
+exit
+
+! Trunk to SW2
+interface fa0/23
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40,50
+exit
+
+! Trunk to Router
+interface gig0/1
+ switchport mode trunk
+ switchport trunk allowed vlan 10,20,30,40,50
+exit
+
+end
+write memory
