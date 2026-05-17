@@ -47,7 +47,7 @@ The campus consists of the following buildings/blocks:
 
 **Topology Type**: Three-Tier Hierarchical Design with redundant fiber links between layers.
 
-![App Screenshot](https://raw.githubusercontent.com/sarowarhosen01/Design-and-Implementation-of-a-Multi-Building-Campus-Network-/refs/heads/main/Screenshots/Screenshot_100.jpg)
+![App Screenshot]([https://raw.githubusercontent.com/sarowarhosen01/Design-and-Implementation-of-a-Multi-Building-Campus-Network-/refs/heads/main/Screenshots/Screenshot_100.jpg](https://raw.githubusercontent.com/sarowarhosen01/Design-and-Implementation-of-a-Multi-Building-Campus-Network-/refs/heads/main/Screenshots/topology-overview.jpg))
 
 
 ---
@@ -114,7 +114,7 @@ Campus-Network-Project/
 
 ## 📸 Screenshots
 
-![App Screenshot](https://raw.githubusercontent.com/sarowarhosen01/Design-and-Implementation-of-a-Multi-Building-Campus-Network-/refs/heads/main/Screenshots/Screenshot_100.jpg)
+![App Screenshot]([https://raw.githubusercontent.com/sarowarhosen01/Design-and-Implementation-of-a-Multi-Building-Campus-Network-/refs/heads/main/Screenshots/Screenshot_100.jpg](https://raw.githubusercontent.com/sarowarhosen01/Design-and-Implementation-of-a-Multi-Building-Campus-Network-/refs/heads/main/Screenshots/topology-overview.jpg))
 
 - Overall Network Topology
 - VLAN Configuration
