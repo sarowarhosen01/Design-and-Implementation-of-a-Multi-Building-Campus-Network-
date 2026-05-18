@@ -80,7 +80,7 @@ The campus consists of the following buildings/blocks:
 ---
 
 ## 📂 Project Files
-
+```
 Campus-Network-Project/  
 ├── Campus_Network.pkt  
 ├── README.md  
@@ -95,7 +95,9 @@ Campus-Network-Project/
 │       └── DHCP-Server.txt  
 ├── Screenshots/   
 │   ├── topology-overview.jpg   
-└── Documentation/   
+└── Documentation/
+
+```  
 
 
 - `Campus_Network.pkt` → Main Packet Tracer file
